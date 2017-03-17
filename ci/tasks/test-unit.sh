@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -e -x
 
 source bosh-src/ci/tasks/utils.sh
 check_param RUBY_VERSION
